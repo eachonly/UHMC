@@ -1,0 +1,5 @@
+ 2								 ! Number of parameters
+ "TempK"			-5.0    5.0  ! Name, lower limit, upper limit
+ "factorK"			0.0 	10.0
+ "InputData.csv"				 ! Data file
+ 365                             ! Warm up periods in datas
