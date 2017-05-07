@@ -1,0 +1,11 @@
+ 8									 ! Number of parameters
+ "A1"					0.0     1.0  ! Name, lower limit, upper limit
+ "A2"					0.0 	1.0
+ "BFI"					0.0		1.0
+ "C1"					0		50      
+ "C2"					0		200
+ "C3"					0		500	
+ "kbase"				0.0		1.0
+ "ksurf"				0.0     1.0
+ "InputData.csv"       			 	 ! Data file
+ 365                            	 ! Warm up periods in datas
