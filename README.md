@@ -17,11 +17,12 @@ This README would normally document the progress in hydrological modelling, part
 ### Contribution guidelines ###
 
 * Writing tests
-For those who are interested in using the optimization algorithms, please clone the code;
+	
+	For those who are interested in using the optimization algorithms, please clone the code;
 
-For those who want to report a bug, please use the Issue Track system;
+	For those who want to report a bug, please use the Issue Track system;
 
-For those who want to contribute (Models and Algorithms), please use the sub-branch.
+	For those who want to contribute (Models and Algorithms), please use the sub-branch.
 
 * Other guidelines
 Use master as the main branch, use sub-branch for developmemnt.

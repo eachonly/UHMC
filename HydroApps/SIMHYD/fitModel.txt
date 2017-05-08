@@ -1,0 +1,10 @@
+ 7                               ! Number of parameters
+ "intCap"      0      3          ! Name, lower limit, upper limit
+ "smsCap"      50     400
+ "sub"         0.05   1
+ "crak"        0.05   1 
+ "k"           0.05   1
+ "sq"         -0.5    2.5
+ "coeff"       10     1000
+ "InputData.csv"                ! Data file
+ 365                            ! Warm up periods in datas
