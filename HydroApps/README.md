@@ -20,7 +20,7 @@ This folder would normally document the hydrological models, both lumped and sem
 * AWBM model is a 8 parameter model, used to simulate the hydrological process
 
 * fitModel.f90 is the main code to setup and call AWBM
-* AWBM.f90 is the subroutine for Snow Model
+* AWBM.f90 is the subroutine for AWBM Model
 * fitModel.txt is the setup for parameters, data, and warmup period
 * InputData.csv is the data, includs rainfall, temperature, simulation, and date
 * AWBM use three paralle tank to simulate the spatial variability of soil moisutre
@@ -33,8 +33,19 @@ This folder would normally document the hydrological models, both lumped and sem
 * SIMHYD model is a three-tanks model, including interception storage, soil moisture tank, and groundwater storage ,with 7 parameters.
 
 * fitModel.f90 is the main code to setup and call AWBM
-* SIMHYD.f90 is the subroutine for Snow Model
+* SIMHYD.f90 is the subroutine for SIMHYD Model
 * fitModel.txt is the setup for parameters, data, and warmup period
 * InputData.csv is the data, includs rainfall, temperature, simulation, and date
 * SIMHYD use three paralle tank to simulate the spatial variability of soil moisutre
 * The two parameter, SQ and COEFF, has been reported to be insensitive
+
+### What includes in SIXPAR ###
+
+* The Fortran 95/2003 code with Visual Studio
+* The SIXPAR is self-contained.
+* SIXPAR model is a two-tanks model, which maintain the feature of sacramento model.
+
+* fitModel.f90 is the main code to setup and call AWBM
+* SIXPAR.f90 is the subroutine for SIXPAR Model
+* fitModel.txt is the setup for parameters, data, and warmup period
+* InputData.csv is the data, includs rainfall, temperature, simulation, and date

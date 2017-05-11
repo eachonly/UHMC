@@ -1,0 +1,9 @@
+ 6                               ! Number of parameters
+ "um"      20      200				 ! Name, lower limit, upper limit
+ "uk"      0.05    1
+ "bm"      100     1000
+ "bk"      0.05    1 
+ "z"       0.1     1.0
+ "x"       0.1     10.0
+ "InputData.csv"                ! Data file
+ 365                            ! Warm up periods in datas
